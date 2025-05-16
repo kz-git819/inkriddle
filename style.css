@@ -1,0 +1,42 @@
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin-top: 10px;
+}
+#image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.grid {
+  display: grid;
+  margin: 10px auto;
+  border: 2px solid #444;
+}
+.grid-cell {
+  border: 1px solid #ccc;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.grid-cell.revealed {
+  background-color: transparent;
+}
+.buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.info {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  font-size: 16px;
+}
